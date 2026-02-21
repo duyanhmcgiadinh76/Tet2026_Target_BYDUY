@@ -1,0 +1,13 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.tet2026.shopping
+productName: Sắm Tết 2026
+win:
+  target: portable
+  icon: icon.ico
+mac:
+  target: dmg
+  category: public.app-category.finance
+files: []
+electronVersion: 40.6.0

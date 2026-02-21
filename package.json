@@ -1,0 +1,28 @@
+{
+  "name": "tet-2026-target-shopping",
+  "version": "1.0.0",
+  "description": "Quản lý mua sắm TARGET Tết 2026",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build:win": "electron-builder --win portable",
+    "build:mac": "electron-builder --mac"
+  },
+  "author": "Your Name",
+  "devDependencies": {
+    "electron": "^25.0.0",
+    "electron-builder": "^24.4.0"
+  },
+  "build": {
+    "appId": "com.tet2026.shopping",
+    "productName": "Sắm Tết 2026",
+    "win": {
+      "target": "portable",
+      "icon": "icon.ico"
+    },
+    "mac": {
+      "target": "dmg",
+      "category": "public.app-category.finance"
+    }
+  }
+}
